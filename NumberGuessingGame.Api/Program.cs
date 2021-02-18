@@ -18,8 +18,9 @@ namespace NumberGuessingGame.Api
             Console.WriteLine("Welcome to Ophy's Number Guessing Game");
             Console.WriteLine("There is a secret number and you have just two chances to guess it right");
             Console.WriteLine("Best Wishes. Let's begin!!!");
-            GetUsersGuess();
-            validateGuess();
+            //GetUsersGuess();
+            ValidateGuess();
+            
 
         }
 
@@ -40,21 +41,14 @@ namespace NumberGuessingGame.Api
 
         }
 
-        static int validateGuess()
+        static int ValidateGuess()
         {
             int tries = 0;
-            int numberOfGuesses = 5;
             
-            while (tries < numberOfGuesses)
+            for (var i = 0; i < 5; i++)
             {
-                tries ++;
                 int guess = GetUsersGuess();
-                if (guess == randomNumber)
-                {
-                    Console.WriteLine("That's correct. Good job!: ");
-                    break;
-                }
-
+                
                 if (guess < randomNumber)
                 {
                     Console.WriteLine("Your number is too low. ");
@@ -62,13 +56,15 @@ namespace NumberGuessingGame.Api
                 else if (guess > randomNumber)
                 {
                     Console.WriteLine("Your number is too high.");
+                } else if (guess == randomNumber)
+                {
+                    Console.WriteLine("That's correct. Good job!: ");
+                    break; 
                 }
 
-                Console.WriteLine($"The correct number was {randomNumber}");
-                break;
-            } ;
+            } Console.WriteLine($"The correct number was {randomNumber}");
 
-            return numberOfGuesses;
+            return tries;
         }
         
     }
