@@ -1,0 +1,12 @@
+/Users/opheliaboamahampoh/Documents/Dev/C#/Mine/NumberGuessingGame/NumberGuessingGame.Api/bin/Debug/netcoreapp3.1/NumberGuessingGame.Api.deps.json
+/Users/opheliaboamahampoh/Documents/Dev/C#/Mine/NumberGuessingGame/NumberGuessingGame.Api/bin/Debug/netcoreapp3.1/NumberGuessingGame.Api.runtimeconfig.json
+/Users/opheliaboamahampoh/Documents/Dev/C#/Mine/NumberGuessingGame/NumberGuessingGame.Api/bin/Debug/netcoreapp3.1/NumberGuessingGame.Api.runtimeconfig.dev.json
+/Users/opheliaboamahampoh/Documents/Dev/C#/Mine/NumberGuessingGame/NumberGuessingGame.Api/bin/Debug/netcoreapp3.1/NumberGuessingGame.Api.dll
+/Users/opheliaboamahampoh/Documents/Dev/C#/Mine/NumberGuessingGame/NumberGuessingGame.Api/bin/Debug/netcoreapp3.1/NumberGuessingGame.Api.pdb
+/Users/opheliaboamahampoh/Documents/Dev/C#/Mine/NumberGuessingGame/NumberGuessingGame.Api/obj/Debug/netcoreapp3.1/NumberGuessingGame.Api.csprojAssemblyReference.cache
+/Users/opheliaboamahampoh/Documents/Dev/C#/Mine/NumberGuessingGame/NumberGuessingGame.Api/obj/Debug/netcoreapp3.1/NumberGuessingGame.Api.AssemblyInfoInputs.cache
+/Users/opheliaboamahampoh/Documents/Dev/C#/Mine/NumberGuessingGame/NumberGuessingGame.Api/obj/Debug/netcoreapp3.1/NumberGuessingGame.Api.AssemblyInfo.cs
+/Users/opheliaboamahampoh/Documents/Dev/C#/Mine/NumberGuessingGame/NumberGuessingGame.Api/obj/Debug/netcoreapp3.1/NumberGuessingGame.Api.csproj.CoreCompileInputs.cache
+/Users/opheliaboamahampoh/Documents/Dev/C#/Mine/NumberGuessingGame/NumberGuessingGame.Api/obj/Debug/netcoreapp3.1/NumberGuessingGame.Api.dll
+/Users/opheliaboamahampoh/Documents/Dev/C#/Mine/NumberGuessingGame/NumberGuessingGame.Api/obj/Debug/netcoreapp3.1/NumberGuessingGame.Api.pdb
+/Users/opheliaboamahampoh/Documents/Dev/C#/Mine/NumberGuessingGame/NumberGuessingGame.Api/obj/Debug/netcoreapp3.1/NumberGuessingGame.Api.genruntimeconfig.cache
