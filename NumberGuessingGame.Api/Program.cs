@@ -16,11 +16,11 @@ namespace NumberGuessingGame.Api
         {
             
             Console.WriteLine("Welcome to Ophy's Number Guessing Game");
-            Console.WriteLine("There is a secret number and you have 5 chances to guess it right");
+            Console.WriteLine("There is a secret number and you have just two chances to guess it right");
             Console.WriteLine("Best Wishes. Let's begin!!!");
-            Console.WriteLine("Hello World!");
             GetUsersGuess();
-            
+            validateGuess();
+
         }
 
         static int GetUsersGuess()
@@ -36,30 +36,39 @@ namespace NumberGuessingGame.Api
             {
                 Console.WriteLine("Please enter a valid number");
             }
-            
-        
+            return guess;
+
+        }
+
+        static int validateGuess()
+        {
+            int tries = 0;
             int numberOfGuesses = 5;
-            for (int i = 0; i < numberOfGuesses; i++)
+            
+            while (tries < numberOfGuesses)
             {
-                
+                tries ++;
+                int guess = GetUsersGuess();
                 if (guess == randomNumber)
                 {
                     Console.WriteLine("That's correct. Good job!: ");
                     break;
                 }
-                else if (guess < randomNumber)
+
+                if (guess < randomNumber)
                 {
-                    Console.Write("Your number is too low. Try again: ");
+                    Console.WriteLine("Your number is too low. ");
                 }
                 else if (guess > randomNumber)
                 {
-                    Console.Write("Your number is too high. Try again: ");
+                    Console.WriteLine("Your number is too high.");
                 }
 
                 Console.WriteLine($"The correct number was {randomNumber}");
                 break;
-            }
-            return guess;
+            } ;
+
+            return numberOfGuesses;
         }
         
     }
